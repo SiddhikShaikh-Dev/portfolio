@@ -171,7 +171,8 @@ nav ul{
 }
 
 .btn:hover{
-    transform:translateY(-5px);
+    transform:translateY(-5px) scale(1.05);
+    box-shadow:0 10px 20px rgba(99,102,241,0.4);
 }
 
 .primary{
@@ -240,8 +241,8 @@ nav ul{
 }
 
 .skill-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 0 20px #6366f1;
+    transform:translateY(-8px) scale(1.05);
+    box-shadow:0 15px 30px rgba(99,102,241,0.4);
 }
 .skill-card i{
     margin-right:8px;
@@ -291,8 +292,8 @@ nav ul{
 }
 
 .project-card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 0 25px #06b6d4;
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0 15px 35px rgba(6,182,212,0.4);
 }
 
 .project-card h3{
@@ -456,6 +457,16 @@ nav a.active{
     100%{
         transform:rotate(360deg);
     }
+}
+.hidden{
+    opacity:0;
+    transform:translateY(50px);
+    transition:all 1s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
 }
 
 </style>
