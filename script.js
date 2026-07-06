@@ -41,7 +41,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 hiddenElements.forEach((el) => observer.observe(el));
-const text = "Aspiring Full Stack Developer";
+const text = "Aspiring Full Stack Java Developer";
 let index = 0;
 
 function typeEffect() {
